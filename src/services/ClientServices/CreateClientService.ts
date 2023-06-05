@@ -14,7 +14,7 @@ export const CreateClientService = async (client: Request) => {
   });
 
   if (clientExists) {
-    throw "Client alredy existis";
+    throw "Client alredy exists";
   }
 
   try {
