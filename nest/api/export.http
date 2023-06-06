@@ -1,0 +1,26 @@
+### Export
+GET http://localhost:3000/exports/album HTTP/1.1
+
+### Export
+GET http://localhost:3000/exports/cliente HTTP/1.1
+
+### Export
+GET http://localhost:3000/exports/contrato HTTP/1.1
+
+### Export
+GET http://localhost:3000/exports/distribuicao HTTP/1.1
+
+### Export
+GET http://localhost:3000/exports/distribuidora HTTP/1.1
+
+### Export
+GET http://localhost:3000/exports/letra HTTP/1.1
+
+### Export
+GET http://localhost:3000/exports/musica HTTP/1.1
+
+### Export
+GET http://localhost:3000/exports/shows HTTP/1.1
+
+### Export
+GET http://localhost:3000/exports/tipocontrato HTTP/1.1

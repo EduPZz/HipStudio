@@ -1,0 +1,40 @@
+### FindAll
+GET http://localhost:3000/shows HTTP/1.1
+
+### FindOne
+GET http://localhost:3000/shows/1 HTTP/1.1
+
+### Create
+POST http://localhost:3000/shows HTTP/1.1
+Content-Type: application/json
+
+{
+  "horario": "asdf",
+  "data_show": "2023-04-01T00:00:00.000Z",
+  "cidade_endereco": "adsfasdf",
+  "CEP_endereco": "asdfasd",
+  "rua_endereco": "adsfadsf",
+  "numero_endereco": "124",
+  "titulo": "Show 3",
+  "fk_TipoContrato": 1,
+  "fk_Cliente": 1
+}
+
+### Update
+PATCH http://localhost:3000/shows/3 HTTP/1.1
+Content-Type: application/json
+
+{
+  "horario": "asdf",
+  "data_show": "2023-04-01T00:00:00.000Z",
+  "cidade_endereco": "adsfasdf",
+  "CEP_endereco": "asdfasd",
+  "rua_endereco": "adsfadsf",
+  "numero_endereco": "124",
+  "titulo": "Show 3",
+  "fk_TipoContrato": 1,
+  "fk_Cliente": 1
+}
+
+### Delete
+DELETE http://localhost:3000/shows/1234 HTTP/1.1
